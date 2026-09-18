@@ -38,3 +38,6 @@ function extractNumber(value) {
   }
 }
 
+checkStringLenght('Hello', 10); // true
+checkIfPalindrome('A man a plan a canal Panama'); // true
+extractNumber('abc123def'); // 123
