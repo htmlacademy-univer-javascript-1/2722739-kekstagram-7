@@ -1,4 +1,6 @@
-import './util.js';
 import {createDescriptions} from './data.js';
+import {renderPictures} from './pictures.js';
 
-createDescriptions();
+const pictures = createDescriptions();
+
+renderPictures(pictures);
