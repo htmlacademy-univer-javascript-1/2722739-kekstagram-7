@@ -683,6 +683,16 @@ main {
   border-radius: 5px;
 }
 
+.img-upload__field-wrapper--invalid .text__hashtags,
+.img-upload__field-wrapper--invalid .text__description {
+  border-color: #ff6b6b;
+}
+
+.img-upload__field-error {
+  display: block;
+  color: #ff6b6b;
+}
+
 .text__description {
   width: 450px;
   height: 100px;

@@ -28,33 +28,3 @@ const createUniqueRandomIntegerGenerator = (min, max) => {
 };
 
 export {getRandomInteger, createUniqueRandomIntegerGenerator};
-
-/*function checkStringLenght(string, maxLenght) {
-  return string.length <= maxLenght;
-}
-
-
-/*function checkIfPalindrome (string) {
-  string = string.replaceAll(' ', '').toUpperCase();
-  let newString = '';
-  for (let i = string.length - 1; i >= 0; i = i - 1) {
-    newString += string[i];
-  }
-  return newString === string;
-}
-
-/*function extractNumber(value) {
-  let newValue = '';
-  value = value.toString();
-  for (let i = 0; i <= value.length; i++ ) {
-    if (!isNaN(value[i]) && value[i] !== ' ') {
-      newValue += value[i];
-    }
-  }
-  if (newValue === '') {
-    return NaN;
-  } else {
-    return newValue;
-  }
-}
-*/
